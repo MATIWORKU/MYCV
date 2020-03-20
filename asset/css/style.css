@@ -119,9 +119,7 @@ img{
     flex-direction: row;
     flex-flow: row wrap;
 }
-img{
-    flex: 1;
-}
+
 #link{
     display: flex;
     align-items: center;
