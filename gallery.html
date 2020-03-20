@@ -4,66 +4,64 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./asset/css/style.css">
         <title>Mathewos worku</title>
+        <style>
+            /* This checks if you are using a laptop or phone with max-width of 2000px if so the background color becomes gray.*/
+            @media only screen and (max-width : 2000px) { 
+                body {
+                    background-color: gray;
+                }
+            }
+            /* THIS CHECKS the devices min height and max width and applies a hover prperty for the images*/
+            @media (min-height:250px) and (max-width: 2000px) { 
+                img:hover {
+                    float: right;
+                    }
+                }
+            /*This checks if the device is either landscape or monochrome if it is link will have a red background.*/
+            @media (orientation:landscape) , (monochrome){
+                a:hover{
+                    background-color: red;
+                }
+            }
+        </style>
     </head>
     <body>
-        <hr>
-        <a href="index.html">Home</a> |
-        <a href="contact.html">Contact</a>
-        <hr>
-        <table cellspacing = "10">
-            <tr>
-                <td>
-                        <img src="./asset/Image/PicsArt_01-25-03.29.12.jpg" alt="My pic" width= "200">
-                </td>
-                <td>
-                    <h1>Mathewos Worku</h1>  
-                    <h3>Student, Addis Ababa Institue of Technology</h3>
-                    <p>My name is <strong>Mathewos Worku</strong>  . I am a graduate of AAIT in software enginerring. I graduated with a <em>4.0</em> grade.
-                    </p>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <table>
-            <tr>
-                <th >
-                    My Gallery
-                    <hr>
-                </th>
-            </tr>
-            <tr>
-                <th> MY Favourite Quotes </th>
-            </tr>
-            <tr>
-                <td><hr><img src="./asset/Image/IMG_20190821_114526_683.jpg" alt="Don't tell GOD how big your problems are, tell your problems how big God is." width="400" height="300"><hr></td>
-                <td><hr><img src="./asset/Image/IMG_20190821_114602_638.jpg" alt="Laugh with many but, Don't trust any." width = "400" height="300"><hr></td>
-                <td><hr><img src="./asset/Image/IMG_20190912_114907_916.jpg" alt="Don't be afraid of dying, Be afraid of living with nothing to die for." width ="400" height="300"><hr></td>
-            </tr>
-            <tr>
-                <th>Nature</th>
-            </tr>
-            <tr>
-                <td><hr><img src="./asset/Image/IMG_20190830_083823_232.jpg" alt="Human" width = "400" height="300" ><hr></td>
-                <td><hr><img src="./asset/Image/PicsArt_12-14-09.30.32.jpg" alt="Sunset" width="400" height="300"><hr></td>
-                <td><hr><img src="./asset/Image/PicsArt_07-04-01.22.12.jpg" alt="Water" width="400" height="300"><hr></td>
-            </tr>
-            <tr>
-                <th> Simple Pictures </th>
-            </tr>
-            <tr>
-                <td><hr><img src="./asset/Image/PicsArt_04-29-11.19.38.jpg" alt="Cents" width="400" height="300"><hr></td>
-                <td><hr><img src="./asset/Image/PicsArt_10-15-12.03.03.jpg" alt="Light" width ="400" height="300"><hr></td>
-                <td><hr><img src="./asset/Image/PicsArt_01-29-05.59.39.jpg" alt="Our Flag" width="400" height="300"><hr></td>
-            </tr>
-        </table>
-        <hr>
-        <footer>
-            <p>For More Information About us </p>
-            <a href="https://www.youtube.com">Visit us on Youtube</a>
-            <a href="https://www.Facebook.com">Visit us on facebook</a>
-        </footer>
-        <hr>
+        
+        <div id="link">
+            <a href="index.html">Home</a> 
+            <a href="blog.html">Blog</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <section id="mine">
+            <div>
+                <h3 id="gall">My Gallery</h3>
+            </div>
+            <div>
+                <img src="./asset/Image/IMG_20190821_114526_683.jpg" alt="Don't tell GOD how big your problems are, tell your problems how big God is.">
+                <img src="./asset/Image/IMG_20190821_114602_638.jpg" alt="Laugh with many but, Don't trust any." >
+                <img src="./asset/Image/IMG_20190912_114907_916.jpg" alt="Don't be afraid of dying, Be afraid of living with nothing to die for.">
+            </div>
+            <div>
+                <img src="./asset/Image/IMG_20190830_083823_232.jpg" alt="Human">
+                <img src="./asset/Image/PicsArt_12-14-09.30.32.jpg" alt="Sunset">
+                <img src="./asset/Image/PicsArt_07-04-01.22.12.jpg" alt="Water" >
+            </div>
+            <div>
+                <img src="./asset/Image/PicsArt_04-29-11.19.38.jpg" alt="Cents">
+                <img src="./asset/Image/PicsArt_10-15-12.03.03.jpg" alt="Light" >
+                <img src="./asset/Image/PicsArt_01-29-05.59.39.jpg" alt="Our Flag">
+            </div>
+        </section>
+        <section>
+            <footer>
+                <p>For More Information About us </p>
+                <a href="https://www.youtube.com">Visit us on Youtube</a>
+                <a href="https://www.Facebook.com">Visit us on facebook</a>
+            </footer>
+        </section>
          
     </body>
 </html>
