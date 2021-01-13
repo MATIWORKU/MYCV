@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 footer a{
     margin: 20px;
     padding: 5px;
@@ -40,4 +41,48 @@ h1{
     display: flex;
     align-items: center;
 
+=======
+footer a{
+    margin: 20px;
+    padding: 5px;
+    background-color: aqua;
+    color: rgb(108, 160, 11);
+  }
+*{
+    margin: 0;
+    padding: o;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #eee;
+    justify-content: center;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.work-area{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 450px;
+    height: 450px;
+    
+}
+
+.block {
+    border: 1.2px solid rgb(71, 67, 67);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+>>>>>>> 2f3b5447800d78762baaf075b3f7988c09f10882
 }
